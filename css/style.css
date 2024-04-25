@@ -1,81 +1,50 @@
-/* Ini file css */
-
+/*Ini file CSS*/
 main{
     padding-left: 32px;
     padding-right:  32px;
     padding-top: 4px;
     padding-bottom: 4px;
-    background-color: Lavender;
     border-radius: 4px;
+    background-color: Lavender;
 }
 
-.main-title {
+body{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.main-title{
     text-align: center;
 }
 
-.main-section{
-    padding: 16px;
-
+.custom-select{
+    text-align: center;
+    position: relative;
+    font-family: math;
 }
 
-.section-celcius{
-    padding-top: 16px;
-}
-
-.section-fahrenheit{
-    padding-top: 16px;
-}
-
-.section-result{
-    padding-top: 16px;
-}
-
-.section-convertion{
-    padding-top: 16px;
-}
-
-.container-button{
-    margin-top: 8px;
-}
-
-textarea{
-    width: 75%;
-    height: 32px;
-    resize: none;
-    border: 2px solid gray;
-    border-radius: 4px;
-    font-size: 16px;
-}
-
-.formula-s {
-    font-size: 20px;
-    font-style: italic;
-}
-
-.formula-s>sub {
-    font-style: normal;
-}
-button {
-    border: none;
-    font-size: 14px;
-    border-radius: 4px;
-    padding: 4px;
-    font-family: arial;
-}
-
-#button-convert{
-    background-color: darkcyan;
+.custom-select-1{
+    background-color: midnightblue;
+    text-align: center;
     color: white;
-    margin-right: 8px;
+    font-family: math;
 }
 
-#button-reset{
+.calculation{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+button{
     background-color: CornflowerBlue ;
     color: white;
     margin-right: 8px;
 }
 
-#button-reverse{
-    background-color: Maroon ;
-    color: white;
+@media screen and (max-width: 500px) {
+    .container {
+      width: 90%;
+    }
 }
